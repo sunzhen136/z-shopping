@@ -1,0 +1,130 @@
+/*底部上面*/
+	ul.foot_top li{
+		float:left;
+		position:relative;
+		padding-left:73px;
+		margin-top:30px;
+	}
+	ul.foot_top li a i{
+		background:url("../images/service-bg.png");
+		width:50px;
+		height:50px;
+		position:absolute;
+		left:5px;
+	}
+	ul.foot_top li:nth-child(2) a i{
+		background-position:0px -52px;
+	}
+	ul.foot_top li:nth-child(3) a i{
+		background-position:0px -104px;
+	}
+	ul.foot_top li:nth-child(4) a i{
+		background-position:0px 153px;
+	}
+	ul.foot_top li:nth-child(5) a i{
+		background-position:0px 102px;
+	}
+		ul.foot_top li:nth-child(6) a i{
+		background-position:0px 50px;
+	}
+	ul.foot_top li a{
+		text-decoration:none;
+		font-size:20px;
+		color:#666;	
+	}
+	ul.foot_top li a p{
+		font-size:16px;
+		color:#333;
+	}
+/*表格*/
+	td:not(:first-child){
+		padding-left:100px;
+	}
+	th:not(:first-child){
+		padding-left:100px;
+	}
+	td,th{
+		text-align:left;
+		padding:10px 0;	
+	}
+	table{
+		padding-top:50px;		
+	}
+	tr td a{
+		color:#666;
+		text-decoration:none;		
+	}
+	tr td{
+	font-size:14px;
+	}
+	tr td a:hover{
+		text-decoration:underline;
+	}
+	#select a{
+	display:block;
+	background:#f33;
+	width:85px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+	text-decoration:none;
+	color:#fff;
+	font-size:14px;
+	}
+	#select:hover a{
+		background:#f00;
+	}
+/*尾部*/
+	div.foot_bottom ul li{
+	float:left;
+	color:#999;
+	font-size:15px;
+	}
+		div.foot_bottom ul{
+	margin-top:20px;
+	padding-top:20px;
+	}
+	div.foot_bottom ul li a{
+	text-decoration:none;
+	color:#999;
+	font-size:15px;
+	}
+	div.foot_bottom ul:first-child li a{
+	color:#fff;
+	}
+	div.foot_bottom{
+	background:#2D2D2D;
+	width:1200px;
+	height:200px;
+	}
+	div.foot_bottom ul li b{
+	margin:0 10px;
+	}
+	div.foot_bottom ul li:nth-child(6){
+	margin-right:10px;
+	}
+	div.foot_bottom ul li:nth-child(7){
+	float:right;
+	margin:0 10px 0 20px;
+
+	}
+	div.foot_bottom ul li:nth-child(8){
+	float:right;
+	}
+	div.foot_bottom ul li:nth-child(7) i{
+			display:inline-block;
+			background:url("../images/icon.png");
+			width:24px;
+			height:23px;
+			vertical-align:top;
+			margin-right:10px;
+			background-position:0px 23px;
+	}
+	div.foot_bottom ul li:nth-child(8) i{
+			display:inline-block;
+			background:url("../images/icon.png");
+			width:24px;
+			height:23px;
+			vertical-align:top;
+			margin-right:10px;		
+	}

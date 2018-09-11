@@ -1,0 +1,289 @@
+/*头*/
+div.login{
+    height:100px;
+    font-size:14px;
+    line-height:100px;
+}
+div.login ul.login-head>li{
+    float:right;
+    margin-left:10px;
+    line-height:100px;
+}
+div.login ul.login-head>li:first-child>a{
+    color:#c00;
+    width:75px;
+    height:20px;
+    display:inline-block;
+    text-align:center;
+    line-height:20px;
+
+}
+div.login ul.login-head>li>a:hover{
+    background:#c00;
+    color:#fff;
+}
+div.login a{
+    text-decoration:none;
+    color:#000;
+}
+div.login>a>img{
+    vertical-align:middle;
+}
+div.login>a:last-child{
+    border-left:1px solid #e6e6e6;
+    height:50px;
+    width:155px;
+    display:inline-block;
+    margin-left:10px;
+    font:14px simsun;
+    line-height:50px;
+    padding-left:10px;
+}
+/*文本*/
+div.register-text{
+    height:800px;
+    border:1px solid #e6e6e6;
+    background:#fafafa;
+}
+div.register-text div.text-head{
+    background:#f5f5f5;
+}
+div.register-text div.text-head{
+    color:#999;
+    font-size:20px;
+    padding:16px 0 16px 100px;
+}
+div.register-text div.text div.text-left>p>span{
+    display:inline-block;
+    width:275px;
+    height:40px;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	font-size:20px;
+	color:#c00;
+}
+div.register-text div.text div.text-left>p>span:nth-child(1){
+    border-left:1px solid #e6e6e6;
+    border-top:2px solid #c00;
+}
+div.register-text div.text div.text-left>p>span:nth-child(2){
+    border-left:1px solid #e6e6e6;
+    border-bottom:1px solid #e6e6e6;
+}
+div.register-text div.text div.text-left>p>span>i{
+    background:url("../images/login-bg.png");
+    display: inline-block;
+    width: 14px;
+    height:24px;
+    background-position: -327px -241px;
+    vertical-align:middle;
+    margin-top:-3px;
+    margin-right:10px;
+}
+div.register-text div.text{
+    margin:20px 0 0 100px;
+}
+div.register-text div.text div.text-left div.text-from{
+    width: 580px;
+    height:70px;
+    margin-top:20px;
+    padding-left:40px;
+    font-size:14px;
+    color:#666;
+    position:relative;
+}
+div.register-text div.text div.text-left div.text-from>input{
+    width:290px;
+    height:40px;
+    border:1px solid #ccc;
+    outline:none;
+}
+div.register-text div.text div.text-left div.text-from>input:focus{
+    border:1px solid #f00;
+}
+div.register-text div.text div.text-left div.text-from>i{
+    color:#f30;
+    font-size:20px;
+    display:inline-block;
+    font-style:normal;
+    position:absolute;
+    top:12px;
+    left:10px;
+}
+div.register-text div.text div.text-left div.text-from>span>i{
+    background:url("../images/login-bg.png");
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background-position: -321px -192px;
+    vertical-align:middle;
+    margin-top:-7px;
+}
+div.register-text div.text div.text-left div.text-from>p{
+    margin-left:50px;
+    color:#aaa;
+    margin-top:5px;
+}
+div.register-text div.text div.text-left div.text-from>span:nth-child(4){
+    color:#f03c30;
+}
+/*验证码*/
+div.register-text div.text div.text-left div.text-from:nth-child(4)>input{
+    width:150px;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(4)>img{
+    width:127px;
+    height:40px;
+    border:2px solid #ccc;
+    margin-left:10px;
+    position:absolute;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(4)>span:nth-child(5){
+    margin-left:150px;
+    color:#134ba0;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(4)>span:nth-child(5):hover{
+    color:#c00;
+    text-decoration:underline;
+    cursor:pointer;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(4)>span:nth-child(6){
+    color:#f03c30;
+}
+/*手机验证码*/
+div.register-text div.text div.text-left div.text-from:nth-child(5)>input{
+    width:150px;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(5)>span:nth-child(4){
+    display:inline-block;
+    width:127px;
+    height:40px;
+    border:1px solid #ccc;
+    margin-left:10px;
+    position:absolute;
+    color:#666;
+    text-align:center;
+    line-height:40px;
+    background:#f5f5f5;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(5)>span:nth-child(4):hover{
+    background:#f1f1f1;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(5)>span:nth-child(5){
+    margin-left:150px;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(5)>span:nth-child(5){
+    color:#f03c30;
+}
+/*确认密码*/
+div.register-text div.text div.text-left div.text-from:nth-child(7)>span:nth-child(2){
+position:absolute;
+    left:26px;
+    top:12px;
+}
+div.register-text div.text div.text-left div.text-from:nth-child(7)>input{
+    margin-left:53px;
+}
+div.register-text div.text div.text-left div.text-foot{
+    margin-left:90px;
+    line-height:45px;
+    font-size:12px;
+    color:#aaa;
+}
+div.register-text div.text div.text-left div.text-foot a{
+    text-decoration:none;
+    color:#134ba0;
+}
+div.register-text div.text div.text-left div.text-foot a:hover{
+    color:#f03c30;
+    text-decoration:underline;
+}
+div.register-text div.text div.text-left div.text-foot>p>input{
+    width:290px;
+    height:40px;
+    background:#dc2e2e;
+    font-size:15px;
+    color:#fff;
+    border:0;
+    outline: none;
+}
+div.register-text div.text div.text-left div.text-foot>p>input:hover{
+    background:#c72020;
+}
+/*右面*/
+div.register-text div.text{
+    position:relative;
+}
+div.register-text div.text div.text-right {
+    width: 200px;
+    height: 290px;
+    border-left: 1px solid #e6e6e6;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    font-size: 12px;
+    color: #666;
+    padding-left:30px;
+}
+div.register-text div.text div.text-right a{
+    text-decoration:none;
+    color:#134ba0;
+}
+div.register-text div.text div.text-right a:hover{
+    color:#f03c30;
+    text-decoration:underline;
+}
+div.register-text div.text div.text-right>p>a{
+background:url("../images/login-bg.png");
+    display:inline-block;
+    width:170px;
+    height:35px;
+}
+div.register-text div.text div.text-right>p:nth-child(5)>a{
+    background-position:0 -37px;
+}
+div.register-text div.text div.text-right>p:nth-child(6)>a{
+    background-position:0 -74px;
+}
+div.register-text div.text div.text-right>p:nth-child(7)>a{
+    background-position:0 -111px;
+}
+div.register-text div.text div.text-right>p:nth-child(3)>a{
+    background:url("../images/weixin-bg.png");
+    display:inline-block;
+    width:170px;
+    height:35px;
+}
+div.register-text div.text div.text-right>p{
+    margin-top:10px;
+}
+    /*尾部*/
+div.login-foot>div.login-foot1>ul.login-footer>li{
+    float:right;
+}
+div.login-foot{
+    height:60px;
+    border-top:3px solid #ddd;
+    margin-top:20px;
+    line-height:60px;
+    font-size:12px;
+    color:#666;
+}
+div.login-foot>div.login-foot1>ul.login-footer>li:not(:first-child){
+    float:left;
+    margin-right:10px;
+    text-decoration: none;
+}
+div.login-foot>div.login-foot1>ul.login-footer>li a{
+    text-decoration: none;
+    color:#666;
+}
+div.login-foot>div.login-foot1>ul.login-footer>li a:hover{
+    text-decoration:underline;
+    color:#f03c30;
+}
+div.login-foot>div.login-foot1{
+    width:1200px;
+    margin:0 auto;
+}

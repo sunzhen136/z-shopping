@@ -1,0 +1,24 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+		margin:0;
+		padding:0;
+		list-style:none;
+}
+div.main{
+width:1200px;
+margin:0 auto;
+background-color: #f7f7f7;
+}
+a{
+cursor:pointer;
+}
+.class:after{
+content:"";
+display:block;
+clear:both; 
+ }
+body{
+background-color: #f7f7f7;
+}
+*{
+	outline:none;
+}
